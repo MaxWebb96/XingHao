@@ -1293,9 +1293,9 @@ input, select, textarea {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
+			/* line-height: 5.5rem; */
 			/* line-height:0rem; */
-			border: solid 2px #ffffff;
+			border: solid 0px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1304,11 +1304,11 @@ input, select, textarea {
 			}
 
 		#header .content {
-			/* border-style: solid;
+			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
-			max-width: 100%; */
+			max-width: 100%;
 		}
 
 			#header .content .inner {
