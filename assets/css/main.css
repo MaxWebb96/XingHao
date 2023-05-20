@@ -1298,6 +1298,7 @@ input, select, textarea {
 			line-height:0rem;
 			border: solid 0px #ffffff;
 			border-radius: 100%;
+			margin-top: -50px;
 
 			/* width: 5.5rem;
 			height: 5.5rem;
