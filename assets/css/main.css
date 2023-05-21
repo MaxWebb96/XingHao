@@ -1607,7 +1607,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		.work {
+		#work {
 			width: 60rem; /* Adjust as needed */
 		}
 
