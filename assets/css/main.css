@@ -1349,10 +1349,12 @@ input, select, textarea {
 				}
 
 			#header .logo .logo-image {
-				margin-top: 50px;    /* Adjust as needed */
-				margin-right: 0px;  /* Adjust as needed */
-				margin-bottom: 0px; /* Adjust as needed */
-				margin-left: 0px;   /* Adjust as needed */
+				position: relative;
+				top: 30px;
+				/* margin-top: 50px;    
+				margin-right: 0px;  
+				margin-bottom: 0px;
+				margin-left: 0px; */
 			}
 
 		#header .content {
