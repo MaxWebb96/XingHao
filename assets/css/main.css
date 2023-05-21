@@ -226,6 +226,23 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	.project-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 20px;
+	}
+	
+	.project {
+		border: 1px solid #fff;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	.project img {
+		width: 100%;
+		height: auto;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
