@@ -1343,9 +1343,16 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
-		#header .logo img {
-				width: 100%;
-				height: auto;
+			#header .logo img {
+					width: 100%;
+					height: auto;
+				}
+
+			#header .logo .logo-image {
+				margin-top: 50px;    /* Adjust as needed */
+				margin-right: 0px;  /* Adjust as needed */
+				margin-bottom: 0px; /* Adjust as needed */
+				margin-left: 0px;   /* Adjust as needed */
 			}
 
 		#header .content {
