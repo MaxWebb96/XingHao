@@ -1351,11 +1351,8 @@ input, select, textarea {
 			#header .logo .logo-image {
 				position: relative;
 				/* top: 30px; */
-				bottom: 60px;
-				/* margin-top: 50px;    
-				margin-right: 0px;  
-				margin-bottom: 0px;
-				margin-left: 0px; */
+				/* control profile-logo location */
+				bottom: 50px;
 			}
 
 		#header .content {
@@ -1601,12 +1598,18 @@ input, select, textarea {
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 
+			/* default width: 40rem */
 			width: 60rem;
+			width: 66%;
 			max-width: 100%;
 
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			opacity: 0;
+		}
+
+		.work {
+			width: 100%; /* Adjust as needed */
 		}
 
 			#main article.active {
