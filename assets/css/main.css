@@ -1731,3 +1731,19 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		#icon-container {
+			position: absolute;
+			top: 20px; /* Adjust as needed */
+			right: 50px; /* Adjust as needed */
+			z-index: 1000; /* To ensure it stays on top of other elements */
+		}
+		
+		#icon-container a.icon {
+			margin-right: 20px; /* Adjust this value to increase or decrease the space between the icons */
+			font-size: 18px;
+		}
+		
+		#icon-container a.icon:last-child {
+			margin-right: 0; /* To ensure the last icon doesn't have extra margin on the right */
+		}
