@@ -1,4 +1,4 @@
-# XingHao
+# XingHao's Personal Website
 
-personal website of Xing Hao
+personal website of __Xing Hao__
 portfolio project and other works
