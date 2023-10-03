@@ -1587,6 +1587,11 @@ input, select, textarea {
 		z-index: 3;
 	}
 
+	.image.main img {
+		width: 60%; /* or any percentage you desire */
+		height: auto;
+	}
+
 		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
