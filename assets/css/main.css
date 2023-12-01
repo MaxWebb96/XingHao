@@ -216,32 +216,7 @@ input, select, textarea {
 			gap: 2rem;
 		}
 		
-		.project {
-			/* border: 1px solid #fff; */
-			padding: 10px;
-			text-align: center;
-		}
-
-		.project h3 {
-			padding-top: 1rem;
-			font-size: 1.2rem;
-			line-height: 1.4;
-			letter-spacing: 0.2rem;
-		}
-
-		.project h4 {
-			text-transform: none;
-			letter-spacing: 0rem;
-		}
 		
-		.project img {
-			width: 100%;
-			/* margin: 10px; */
-			/* height: auto; */
-			height: 12rem;
-			object-fit: cover;
-			padding-bottom: 0rem;
-		}
 
 	h1 {
 		font-size: 2.25rem;
@@ -1637,12 +1612,6 @@ input, select, textarea {
 		#main article#about {
 			width: 80rem;
 		}
-
-		#main article#project-bridge {
-			width: 60rem; /* Adjust as needed */
-		}
-
-
 
 			#main article.active {
 				-moz-transform: translateY(0);

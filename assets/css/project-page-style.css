@@ -1,0 +1,134 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+img.featured {
+    width: 100%; /* Image takes full width of the container */
+    height: auto; /* Height is auto to maintain aspect ratio */
+    max-width: none; /* Overrides any max-width set previously */
+    display: block; /* Ensures the image is a block-level element */
+    margin-left: auto; /* Centers the image */
+    margin-right: auto; /* Centers the image */
+    margin-left: 0;
+    padding-left: 0;
+}
+/* Project Detail Page Styles */
+
+/* Container for the project detail */
+.project-detail {
+    max-width: 1000px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    /* background: #f9f9f9; */
+    /* color: #333; */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow for depth */
+}
+
+/* Project Title */
+.project-detail h1 {
+    font-size: 2em; /* Large font size for the main title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #ffffff;
+    text-align: center; /* Center aligning the title */
+}
+/* Subsections / Headings inside the detail */
+.project-detail h2 {
+    font-size: 1.5em;
+    margin-top: 50px; /* Space above each subsection */
+    margin-bottom: 15px; /* Space below each subsection */
+    color: #34495e;
+}
+
+.project-detail h3 {
+    font-size: 1.5em;
+    margin-top: 40px; /* Space above each subsection */
+    margin-bottom: 10px; /* Space below each subsection */
+    color: #b1b6ba;
+}
+
+.project-detail h4 {
+    font-size: 1em;
+    margin-top: 20px; /* Space above each subsection */
+    margin-bottom: 0px; /* Space below each subsection */
+    color: rgb(126, 128, 129);
+}
+
+
+.project-detail h5 { /* Headings below the img */
+    font-size: 0.8em;
+    margin-top: -10px; /* Space above each subsection */
+    margin-bottom: 20px; /* Space below each subsection */
+    /* color: #34495e; */
+}
+
+/* Project Images */
+.project-detail img {
+    max-width: auto; /* Ensuring image is responsive */
+    max-height: 500px;
+    margin-bottom: 20px; /* Space below each image */
+    border-radius: 4px; /* Slightly rounded corners for the images */
+}
+
+.project-detail img.featured {
+    width: 100%;
+    max-width: none; /* Ensuring image is responsive */
+    max-height: 800px;
+    margin-bottom: 20px; /* Space below each image */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px; /* Slightly rounded corners for the images */
+    width: max-content;
+    display: block;
+}
+
+/* Project Description */
+.project-detail p {
+    font-size: 1em; /* Standard font size for readability */
+    line-height: 1.6; /* Slightly more line height for readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+/* Project Metadata (like date, category, etc.) */
+.project-metadata {
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd; /* Separating metadata */
+    font-style: italic; /* Italicize metadata */
+}
+
+/* Links and Buttons */
+.project-detail a.button {
+    display: inline-block;
+    background: #3498db; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    margin-top: 20px; /* Space above the button */
+}
+
+.project-detail a.button:hover {
+    background: #2980b9; /* Darker background on hover */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .project-detail {
+        padding: 15px;
+    }
+
+    .project-detail h1 {
+        font-size: 1.75em;
+    }
+
+    .project-detail h2 {
+        font-size: 1.25em;
+    }
+}
+
