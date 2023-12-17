@@ -119,3 +119,35 @@ img.featured {
     }
 }
 
+/* Button */
+
+.back-button {
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    border-radius: 100%;
+}
+
+.back-button a {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-position: center;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.back-button a:hover {
+    background-color: rgba(255, 255, 255, 0.075); /* Slightly darker shade for hover effect */
+}
+
+.back-button a:active {
+    background-color: rgba(255, 255, 255, 0.075); /* Even darker for click effect */
+}
+
