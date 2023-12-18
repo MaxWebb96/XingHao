@@ -12,10 +12,20 @@ img.featured {
     width: 100%;
     height: auto;
     max-height: 700px;
+    object-fit: cover;
     display: block;
     margin-bottom: 50px;
 }
 /* Project Detail Page Styles */
+
+/* Project Images */
+.project-detail img {
+    max-width: 100% ; /* Ensuring image is responsive */
+    max-height: 400px;
+    margin: 0 auto 20px; /* Space below each image */
+    border-radius: 4px; /* Slightly rounded corners for the images */
+    display: block; /* Remove default inline display */
+}
 
 /* Container for the project detail */
 .project-detail {
@@ -62,16 +72,11 @@ img.featured {
     font-size: 0.8em;
     margin-top: -10px; /* Space above each subsection */
     margin-bottom: 20px; /* Space below each subsection */
+    text-align: center;
     /* color: #34495e; */
 }
 
-/* Project Images */
-.project-detail img {
-    max-width: auto; /* Ensuring image is responsive */
-    max-height: 400px;
-    margin-bottom: 20px; /* Space below each image */
-    border-radius: 4px; /* Slightly rounded corners for the images */
-}
+
 
 
 /* Project Description */
@@ -79,6 +84,7 @@ img.featured {
     font-size: 1em; /* Standard font size for readability */
     line-height: 1.6; /* Slightly more line height for readability */
     margin-bottom: 15px; /* Space between paragraphs */
+    text-align: justify;
 }
 
 /* Project Metadata (like date, category, etc.) */
