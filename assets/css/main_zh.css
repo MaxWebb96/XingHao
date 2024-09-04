@@ -1741,10 +1741,11 @@ input, select, textarea {
 
 /* id */
 	#icon-container {
-		position: absolute;
-		top: 1.2rem; /* Adjust as needed */
-		right: 6rem; /* Adjust as needed */
-		z-index: 100; /* To ensure it stays on top of other elements */
+		position: relative;
+		bottom: 1.2rem; /* Adjust as needed */
+		right: 0rem; /* Adjust as needed */
+		z-index: 10; /* To ensure it stays on top of other elements */
+		margin-top: 7rem
 	}
 	
 	#icon-container a.icon {
