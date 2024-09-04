@@ -1746,7 +1746,7 @@ input, select, textarea {
 	}
 
 	#language-switch {
-		z-index: 10;
+		z-index: 2;
 		position: absolute;
 		top: 1rem;
 		right: 3rem;
