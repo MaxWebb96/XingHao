@@ -1749,6 +1749,6 @@ input, select, textarea {
 		opacity: 1;
 		z-index: 10;
 		position:fixed;
-		top: 1rem;
+		top: 3rem;
 		right: 3rem;
 	}
